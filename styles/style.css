@@ -268,6 +268,8 @@
   border-radius: 6px;
   padding: 32px 40px 20px 32px;
   box-sizing: border-box;
+  width: 360px;
+  height: 420px;
 }
 
 .card__content {
@@ -275,8 +277,6 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  width: 360px;
-  height: 420px;
 }
 
 .card__title {
@@ -317,11 +317,15 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  /* Add styles */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 40px;
 }
 
 .step {
-  /* Add styles */
+  max-width: 200px;
 }
 
 .step__title {
@@ -348,14 +352,19 @@
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
 }
 
 .about__title {
+  max-width: 154px;
   margin: 0;
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
   z-index: 1;
+  padding-right: 120px;
 }
 
 .about__content {
@@ -367,6 +376,7 @@
 
 .about__paragraph {
   margin: 0 0 32px;
+  padding: 0;
 }
 
 .about__circle {
