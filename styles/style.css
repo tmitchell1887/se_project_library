@@ -42,7 +42,7 @@
 .nav__link:hover {
   color: #1f69c9;
 }
-.nav__link: .header__title {
+.header__title {
   margin-top: 150px;
   margin-bottom: 0;
   font-size: 66px;
@@ -432,7 +432,7 @@
 
 .footer__logo {
   height: 21px;
-  width: 116x;
+  width: 116px;
 }
 
 .footer__list {
