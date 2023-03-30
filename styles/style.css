@@ -102,9 +102,6 @@
   box-sizing: border-box;
   background-color: #f2f2f3;
 }
-.events:hover {
-  color: #2f80ed;
-}
 
 .events__content {
   flex-basis: 580px;
