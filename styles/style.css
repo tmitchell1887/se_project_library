@@ -4,7 +4,7 @@
   font-size: 16px;
   line-height: 20px;
   margin: 0 auto;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .header {
@@ -19,6 +19,7 @@
 .nav {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
 .logo {
@@ -30,7 +31,10 @@
   display: flex;
   column-gap: 20px;
   list-style-type: none;
-  margin: 8px 0 0;
+  margin-top: 8px;
+  align-items: center;
+  padding: 0;
+  margin-bottom: 0;
 }
 
 .nav__link {
@@ -52,7 +56,7 @@
 }
 
 .header__description {
-  margin-top: 32px;
+  margin top: 32px;
   max-width: 532px;
   font-size: 20px;
   line-height: 30px;
@@ -96,6 +100,7 @@
   align-items: start;
   justify-content: space-between;
   box-sizing: border-box;
+  background-color: #f2f2f3;
 }
 .events:hover {
   color: #2f80ed;
@@ -155,9 +160,13 @@
 
 .events__description {
   margin: 40px 0 60px;
+  font-size: 16px;
+  line-height: 20px;
+  max-width: 532px;
 }
 
 .events__more {
+  margin-top: 60px;
   color: #2f80ed;
   text-decoration: none;
 }
@@ -186,31 +195,26 @@
 }
 
 .person_name_feynman {
-  display: flex;
   top: -30px;
   left: 319px;
 }
 
 .person_name_burbidge {
-  display: flex;
   top: 96px;
   right: 125px;
 }
 
 .person_name_cannon {
-  display: flex;
   bottom: 18px;
   right: 216px;
 }
 
 .person_name_mitchell {
-  display: flex;
   bottom: 82px;
   left: 142px;
 }
 
 .person_name_tarter {
-  display: flex;
   top: 79px;
   left: 159px;
 }
@@ -237,11 +241,11 @@
   margin: 0;
 }
 .staff {
-  background-position: center;
+  background-position: bottom;
   background-image: url(/images/staff_picks_background.jpg);
-
-  align-items: center;
-  text-align: center;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 140px;
 }
 
 .staff__title {
@@ -249,6 +253,7 @@
   font-size: 44px;
   line-height: 52px;
   margin: 0 0 24px;
+  color: #ffffff;
 }
 
 .staff__subtitle {
@@ -256,7 +261,8 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
-  margin: 0;
+  margin: 0 0 68px 0;
+  color: #ffffff;
 }
 
 .staff__cards {
@@ -265,7 +271,6 @@
   margin-top: 68px;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
   justify-content: center;
   column-gap: 40px;
   row-gap: 40px;
@@ -308,6 +313,7 @@
   font-size: 14px;
   line-height: 20px;
   color: #838383;
+  margin-top: auto;
 }
 
 .membership {
@@ -337,6 +343,7 @@
 
 .step {
   max-width: 200px;
+  color: #000000;
 }
 
 .step__title {
@@ -398,7 +405,6 @@
   width: 495px;
   height: 495px;
   border-radius: 50%;
-
   position: absolute;
   left: -91px;
   top: -121px;
@@ -439,7 +445,6 @@
 }
 
 .footer__list {
-  /* The code below removes the default browser styles for lists */
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -454,7 +459,7 @@
 .footer__column-heading {
   font-size: 16px;
   line-height: 20px;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
 }
 
 .footer__column-link {
@@ -477,4 +482,7 @@
 .footer__copyright {
   display: flex;
   margin-top: 108px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
 }
