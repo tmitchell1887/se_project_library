@@ -4,7 +4,7 @@
   font-size: 16px;
   line-height: 20px;
   margin: 0 auto;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica Neue, Arial, sans-serif;
 }
 
 .header {
@@ -60,6 +60,7 @@
   max-width: 532px;
   font-size: 20px;
   line-height: 30px;
+  margin-bottom: 0px;
 }
 
 .header__image {
@@ -100,7 +101,7 @@
   align-items: start;
   justify-content: space-between;
   box-sizing: border-box;
-  background-color: #f2f2f3;
+  background-color: #f2f2f2;
 }
 
 .events__content {
@@ -239,7 +240,7 @@
 }
 .staff {
   background-position: bottom;
-  background-image: url(/images/staff_picks_background.jpg);
+  background-image: url(../images/staff_picks_background.jpg);
   background-size: cover;
   padding-top: 100px;
   padding-bottom: 140px;
@@ -265,7 +266,6 @@
 .staff__cards {
   max-width: 760px;
   align-items: center;
-  margin-top: 68px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -397,6 +397,10 @@
   z-index: 1;
 }
 
+.about__paragraph:last-child {
+  margin-bottom: 0;
+}
+
 .about__circle {
   background-color: #2f80ed;
   width: 495px;
@@ -453,6 +457,10 @@
   margin-bottom: 16px;
 }
 
+.footer__list-item {
+  margin-bottom: 0;
+}
+
 .footer__column-heading {
   font-size: 16px;
   line-height: 20px;
@@ -478,7 +486,7 @@
 
 .footer__copyright {
   display: flex;
-  margin-top: 108px;
+  margin: 108px 0 0;
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
